@@ -240,7 +240,6 @@
   <project path="frameworks/opt/inputmethodcommon" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="CyanogenMod/android_frameworks_opt_mailcommon" />
   <project path="frameworks/opt/mms" name="CyanogenMod/android_frameworks_opt_mms" />
-  <project path="frameworks/opt/hardware" name="CM10-1/android_frameworks_opt_hardware" remote="private" revision="cm-10.1/>
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
@@ -391,5 +390,6 @@
   <project path="device/samsung/ancora" name="CM10-1/android_device_samsung_ancora" remote="private" revision="cm-10.1_ion"/>
   <project path="vendor/samsung/ancora" name="CM10-1/android_vendor_samsung_ancora" remote="private" revision="cm-10.1_ion"/>
   <project path="kernel/samsung/msm7x30-common" name="CM10-1/samsung-kernel-msm7x30" remote="private" revision="cm-10.1"/>
-  
+  <project path="frameworks/opt/hardware" name="CM10-1/android_frameworks_opt_hardware" remote="private" revision="cm-10.1 />
+
 </manifest>
