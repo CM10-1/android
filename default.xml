@@ -175,7 +175,7 @@
   <project path="external/openssh" name="CyanogenMod/android_external_openssh" />
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" />
   <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" />
-  <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" />
+  <project path="external/oprofile" name="CM10-1/android_external_oprofile" remote="private" revision="cm-10.1" />
   <project path="external/ping" name="CyanogenMod/android_external_ping" />
   <project path="external/ping6" name="CyanogenMod/android_external_ping6" />
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" />
