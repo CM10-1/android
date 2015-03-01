@@ -17,14 +17,14 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CM10-1/android_build" remote="private" revisison="cm-10.1">
+  <project path="build" name="CyanogenMod/android_build" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project path="android" name="CyanogenMod/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
-  <project path="bionic" name="CM10-1/android_bionic" remote="private" revision="cm-10.1"/>
+  <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
@@ -175,7 +175,7 @@
   <project path="external/openssh" name="CyanogenMod/android_external_openssh" />
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" />
   <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" />
-  <project path="external/oprofile" name="CM10-1/android_external_oprofile" remote="private" revision="cm-10.1" />
+  <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" />
   <project path="external/ping" name="CyanogenMod/android_external_ping" />
   <project path="external/ping6" name="CyanogenMod/android_external_ping6" />
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" />
@@ -243,7 +243,7 @@
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
-  <project path="frameworks/rs" name="CM10-1/android_frameworks_rs" remote="private" revision="cm-10.1" />
+  <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
@@ -377,7 +377,7 @@
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
-  <project path="system/security" name="CM10-1/android_system_security" remote="private" revision="cm-10.1" />
+  <project path="system/security" name="CyanogenMod/android_system_security" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
@@ -390,6 +390,4 @@
   <project path="device/samsung/ancora" name="CM10-1/android_device_samsung_ancora" remote="private" revision="cm-10.1_ion"/>
   <project path="vendor/samsung/ancora" name="CM10-1/android_vendor_samsung_ancora" remote="private" revision="cm-10.1_ion"/>
   <project path="kernel/samsung/msm7x30-common" name="CM10-1/samsung-kernel-msm7x30" remote="private" revision="cm-10.1"/>
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="aosp" revision="master" />
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="aosp" revision="master" />
 </manifest>
