@@ -390,5 +390,5 @@
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
   <project path="device/samsung/ancora" name="CM10-1/android_device_samsung_ancora" remote="private" revision="cm-10.1_ion"/>
   <project path="vendor/samsung/ancora" name="CM10-1/android_vendor_samsung_ancora" remote="private" revision="cm-10.1_ion"/>
-  <project path="kernel/samsung/msm7x30-common" name="CM10-1/samsung-kernel-msm7x30" remote="private" revision="cm-10.1"/>
+  <project path="kernel/samsung/msm7x30-common" name="AriesVE-DevCon-TEAM/samsung-kernel-msm7x30" remote="private" revision="cm-10.1"/>
 </manifest>
